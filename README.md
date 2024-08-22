@@ -12,5 +12,10 @@
     npm run dev
     ```
 
+16. **Run the tests:**
+    ```bash
+    npm tests
+    ```
+
 Thank you for your consideration. Follow these instructions to set up and run the project successfully.
     
