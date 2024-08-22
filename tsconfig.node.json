@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
     "composite": true,
-    "module": "ESNext",
+    "module": "commonjs",
     "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx" 
   },
-  "include": ["vite.config.ts"]
+ "include": ["src/**/*.ts", "jest.config.ts", "src/api/newApi.tsx"],
+  "exclude": ["node_modules"]
 }
